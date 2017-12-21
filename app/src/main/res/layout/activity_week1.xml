@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.yeongsik.kotlinseminar.kotlinseminar.Week1Activity">
+
+    <Button
+        android:id="@+id/btn_chapter1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Java 특징"/>
+
+    <Button
+        android:id="@+id/btn_chapter2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Null 안정성"/>
+
+    <Button
+        android:id="@+id/btn_chapter3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="가변/불변"/>
+
+    <Button
+        android:id="@+id/btn_chapter4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="StreamAPI"/>
+
+    <Button
+        android:id="@+id/btn_chapter5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lambda 식 표현"/>
+
+    <Button
+        android:id="@+id/btn_chapter6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Extension plug in"/>
+
+    <Button
+        android:id="@+id/btn_chapter7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Java 특징"/>
+
+    <Button
+        android:id="@+id/btn_chapter8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Java 특징"/>
+
+    <Button
+        android:id="@+id/btn_chapter9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Java 특징"/>
+</LinearLayout>
