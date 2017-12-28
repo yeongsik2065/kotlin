@@ -3,7 +3,6 @@ package com.yeongsik.kotlinseminar.kotlinseminar
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import com.yeongsik.kotlinseminar.kotlinseminar.week1.Chapter1Activity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -14,5 +13,8 @@ class MainActivity : AppCompatActivity() {
 
         btn_week_1.setOnClickListener {
             startActivity(Intent(this, Week1Activity::class.java)) }
+
+        btn_week_2.setOnClickListener {
+            startActivity(Intent(this, Week2Activity::class.java)) }
     }
 }

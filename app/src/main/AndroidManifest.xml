@@ -17,7 +17,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".Week1Activity" />
-        <activity android:name=".week1.Chapter1Activity"></activity>
+        <activity android:name=".week1.Chapter1Activity" />
+        <activity android:name=".Week2Activity" />
+        <activity android:name=".week1.Chapter2Activity"></activity>
     </application>
 
 </manifest>

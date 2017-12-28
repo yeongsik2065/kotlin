@@ -10,15 +10,29 @@ class Chapter1Activity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        supportActionBar!!.title = "사라진 키워드 [;][new]"
         setContentView(R.layout.activity_chapter1)
 
-        btn.setOnClickListener({ alert(run(), "make class").show() })
+        btn.setOnClickListener { ( alert(test() ).show()) }
+
     }
 
-    class User private constructor(private val name: String, val age: Int) { //
+    private fun test(): String {
+        // ; 키워드는 안붙여도 된다. 단, 한줄에 두개 이상의 명령을 선언할 때는 ; 로 구분할 수 있다.
+        var num = 3
 
-        constructor(name: String) : this(name, 0)
+        // new 키워드를 붙이지 않고 instance 화 할 수 있다.
+        var array = ArrayList<String>()
+
+        return "num is $num , array size is ${array.size}"
     }
+
+    fun test2(): Unit {
+
+    }
+//    private fun User(name: String = "", age: Int = 1) {
+//
+//    }
 
     class User2 {
         private val name: String //기본적으로 접근제어자 선언 안하면, public => 자바에서는 package

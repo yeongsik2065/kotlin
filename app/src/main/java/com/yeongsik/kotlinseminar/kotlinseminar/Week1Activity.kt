@@ -3,14 +3,15 @@ package com.yeongsik.kotlinseminar.kotlinseminar
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import com.yeongsik.kotlinseminar.kotlinseminar.R
 import com.yeongsik.kotlinseminar.kotlinseminar.week1.Chapter1Activity
+import com.yeongsik.kotlinseminar.kotlinseminar.week1.Chapter2Activity
 import kotlinx.android.synthetic.main.activity_week1.*
 
 class Week1Activity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        supportActionBar!!.title = "WEEK 1"
         setContentView(R.layout.activity_week1)
 
         btn_chapter1.setOnClickListener({
@@ -18,7 +19,7 @@ class Week1Activity : AppCompatActivity() {
         })
 
         btn_chapter2.setOnClickListener({
-            startActivity(Intent(this, Chapter1Activity::class.java))
+            startActivity(Intent(this, Chapter2Activity::class.java))
         })
 
         btn_chapter3.setOnClickListener({
