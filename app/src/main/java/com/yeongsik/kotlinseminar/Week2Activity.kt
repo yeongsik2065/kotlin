@@ -1,4 +1,4 @@
-package com.yeongsik.kotlinseminar.kotlinseminar
+package com.yeongsik.kotlinseminar
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle

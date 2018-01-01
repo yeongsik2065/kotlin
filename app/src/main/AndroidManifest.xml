@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.yeongsik.kotlinseminar.kotlinseminar">
+    package="com.yeongsik.kotlinseminar">
 
     <application
         android:allowBackup="true"
@@ -17,9 +17,14 @@
             </intent-filter>
         </activity>
         <activity android:name=".Week1Activity" />
-        <activity android:name=".week1.Chapter1Activity" />
         <activity android:name=".Week2Activity" />
-        <activity android:name=".week1.Chapter2Activity"></activity>
+        <activity android:name=".week1.Chapter0Activity" />
+        <activity android:name=".week1.Chapter1Activity" />
+        <activity android:name=".week1.Chapter2Activity" />
+        <activity android:name=".week1.Chapter3Activity" />
+        <activity android:name=".week1.Chapter4Activity" />
+        <activity android:name=".week1.Chapter5Activity" />
+        <activity android:name=".week1.Chapter6Activity" />
     </application>
 
 </manifest>

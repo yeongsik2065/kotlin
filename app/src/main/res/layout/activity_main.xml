@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.yeongsik.kotlinseminar.kotlinseminar.MainActivity">
+    tools:context="com.yeongsik.kotlinseminar.MainActivity">
 
     <Button
         android:id="@+id/btn_week_1"

@@ -4,59 +4,47 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.yeongsik.kotlinseminar.kotlinseminar.Week1Activity">
+    tools:context="com.yeongsik.kotlinseminar.Week1Activity">
+
+    <Button
+        android:id="@+id/btn_chapter0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="코틀린 소개"/>
 
     <Button
         android:id="@+id/btn_chapter1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="사라진 키워드 [;][new]"/>
+        android:text="코틀린 특징 phrase 1"/>
 
     <Button
         android:id="@+id/btn_chapter2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Null 안정성"/>
+        android:text="코틀린 특징 phrase 2"/>
 
     <Button
         android:id="@+id/btn_chapter3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="가변/불변"/>
+        android:text="코틀린 특징 phrase 3"/>
 
     <Button
         android:id="@+id/btn_chapter4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="StreamAPI"/>
+        android:text="코틀린 특징 phrase 4"/>
 
     <Button
         android:id="@+id/btn_chapter5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Lambda 식 표현"/>
+        android:text="코틀린 특징 phrase 5"/>
 
     <Button
         android:id="@+id/btn_chapter6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Extension plug in"/>
-
-    <Button
-        android:id="@+id/btn_chapter7"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Java 특징"/>
-
-    <Button
-        android:id="@+id/btn_chapter8"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Java 특징"/>
-
-    <Button
-        android:id="@+id/btn_chapter9"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Java 특징"/>
+        android:text="코틀린 특징 phrase 6"/>
 </LinearLayout>
