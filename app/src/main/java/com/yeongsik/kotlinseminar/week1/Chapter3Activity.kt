@@ -17,6 +17,7 @@ class Chapter3Activity : AppCompatActivity() {
         /*
      * 7. 중위 표기법 - unit성 method 만들때 용이
      *      => 기존 Java 에서는 Util 성 class 를 생성
+     *      => static 이 아닌 실제 객체의 method 로 선언 가능
      */
         fun Int.max(x: Int): Int {
             return if (this > x) this else x

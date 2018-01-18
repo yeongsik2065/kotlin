@@ -1,9 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.yeongsik.kotlinseminar.Week2Activity">
 
-</android.support.constraint.ConstraintLayout>
+    <Button
+        android:id="@+id/btn_chapter7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="접근 제한자"/>
+
+    <Button
+        android:id="@+id/btn_chapter8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="setter/getter"/>
+
+    <Button
+        android:id="@+id/btn_chapter9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="생성자"/>
+
+    <Button
+        android:id="@+id/btn_chapter10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="상속"/>
+
+    <Button
+        android:id="@+id/btn_chapter11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="싱글톤"/>
+
+    <Button
+        android:id="@+id/btn_chapter12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="동반객체"/>
+</LinearLayout>

@@ -25,6 +25,12 @@
         <activity android:name=".week1.Chapter4Activity" />
         <activity android:name=".week1.Chapter5Activity" />
         <activity android:name=".week1.Chapter6Activity" />
+        <activity android:name=".week2.Chapter7Activity" />
+        <activity android:name=".week2.Chapter8Activity" />
+        <activity android:name=".week2.Chapter9Activity" />
+        <activity android:name=".week2.Chapter10Activity" />
+        <activity android:name=".week2.Chapter11Activity" />
+        <activity android:name=".week2.Chapter12Activity"></activity>
     </application>
 
 </manifest>

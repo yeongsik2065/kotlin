@@ -17,5 +17,5 @@
         android:id="@+id/btn_week_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="1 week (1 / 19)"/>
+        android:text="2 week (1 / 19)"/>
 </LinearLayout>
