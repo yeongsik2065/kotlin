@@ -1,8 +1,8 @@
 package com.yeongsik.kotlinseminar
 
 import android.content.Intent
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.support.v7.app.AppCompatActivity
 import com.yeongsik.kotlinseminar.week1.*
 import kotlinx.android.synthetic.main.activity_week1.*
 
@@ -12,7 +12,6 @@ class Week1Activity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         supportActionBar!!.title = "WEEK 1"
         setContentView(R.layout.activity_week1)
-
         btn_chapter0.setOnClickListener({
             startActivity(Intent(this, Chapter0Activity::class.java))
         })

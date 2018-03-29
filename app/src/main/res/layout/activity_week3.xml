@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.yeongsik.kotlinseminar.Week3Activity">
+
+    <Button
+        android:id="@+id/btn_chapter13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="중첩 클래스"/>
+
+    <Button
+        android:id="@+id/btn_chapter14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="자료형 동일확인/흐름제어"/>
+
+    <Button
+        android:id="@+id/btn_chapter15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="for / range"/>
+
+    <Button
+        android:id="@+id/btn_chapter16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="예외"/>
+
+    <Button
+        android:id="@+id/btn_chapter17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="널안전성 복습"/>
+
+    <Button
+        android:id="@+id/btn_chapter18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="널처리 복습2"/>
+
+    <Button
+        android:id="@+id/btn_chapter19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="널처리 복습3"/>
+
+    <Button
+        android:id="@+id/btn_chapter20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="데이터 클래스 / 한정 클래스"/>
+
+    <Button
+        android:id="@+id/btn_chapter21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="프로퍼티 setter/getter"/>
+</LinearLayout>

@@ -11,8 +11,6 @@ class Week2Activity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_week2)
-
         supportActionBar!!.title = "WEEK 2"
         setContentView(R.layout.activity_week2)
 
