@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.yeongsik.kotlinseminar.Week4Activity">
+
+    <Button
+        android:id="@+id/btn_chapter22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="함수1"/>
+
+    <Button
+        android:id="@+id/btn_chapter23"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="함수2"/>
+
+    <Button
+        android:id="@+id/btn_chapter24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="함수3"/>
+
+    <Button
+        android:id="@+id/btn_chapter25"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="함수4"/>
+
+    <Button
+        android:id="@+id/btn_chapter26"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="함수5"/>
+
+    <Button
+        android:id="@+id/btn_chapter27"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="분해 선언"/>
+
+    <Button
+        android:id="@+id/btn_chapter28"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="조건 확인 함수"/>
+
+    <Button
+        android:id="@+id/btn_chapter29"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="컬랙션 생성 함수"/>
+
+    <Button
+        android:id="@+id/btn_chapter30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="스트림 함수1"/>
+</LinearLayout>

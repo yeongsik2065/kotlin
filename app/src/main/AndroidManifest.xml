@@ -19,6 +19,7 @@
         <activity android:name=".Week1Activity" />
         <activity android:name=".Week2Activity" />
         <activity android:name=".Week3Activity" />
+        <activity android:name=".Week4Activity" />
         <activity android:name=".week1.Chapter0Activity" />
         <activity android:name=".week1.Chapter1Activity" />
         <activity android:name=".week1.Chapter2Activity" />
@@ -41,6 +42,15 @@
         <activity android:name=".week3.Chapter19Activity" />
         <activity android:name=".week3.Chapter20Activity" />
         <activity android:name=".week3.Chapter21Activity" />
+        <activity android:name=".week4.Chapter22Activity" />
+        <activity android:name=".week4.Chapter23Activity" />
+        <activity android:name=".week4.Chapter24Activity" />
+        <activity android:name=".week4.Chapter25Activity" />
+        <activity android:name=".week4.Chapter26Activity" />
+        <activity android:name=".week4.Chapter27Activity" />
+        <activity android:name=".week4.Chapter28Activity" />
+        <activity android:name=".week4.Chapter29Activity" />
+        <activity android:name=".week4.Chapter30Activity" />
     </application>
 
 </manifest>

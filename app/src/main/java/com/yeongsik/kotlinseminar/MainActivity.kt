@@ -19,5 +19,8 @@ class MainActivity : AppCompatActivity() {
 
         btn_week_3.setOnClickListener {
             startActivity(Intent(this, Week3Activity::class.java)) }
+
+        btn_week_4.setOnClickListener {
+            startActivity(Intent(this, Week4Activity::class.java)) }
     }
 }
