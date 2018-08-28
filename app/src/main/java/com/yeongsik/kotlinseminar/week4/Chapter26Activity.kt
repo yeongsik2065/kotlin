@@ -44,7 +44,7 @@ class Chapter26Activity : AppCompatActivity() {
     }
 
     fun test8() {
-        //아래와 같이 사용하면 실제 컴파일시 doSomething()  은 함수 호출 스택에 쌓이지 않고, 문자열 치환이 됨.
+        //아래와 같이 사용하면 실제 컴파일시 doSomething() 은 문자열 치환이 됨.
         doSomething2 (body = { println("do Something") }, body2 = { println("do Something2") })
         //println("onPreExecute()")
         //println("do Something")

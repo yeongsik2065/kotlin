@@ -10,23 +10,23 @@
         android:id="@+id/btn_week_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="1 week (1 / 5)" />
+        android:text="1 week" />
 
     <Button
         android:id="@+id/btn_week_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="2 week (2 / 19)" />
+        android:text="2 week" />
 
     <Button
         android:id="@+id/btn_week_3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="3 week (3 / 30)" />
+        android:text="3 week" />
 
     <Button
         android:id="@+id/btn_week_4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="4 week (4 / 30)" />
+        android:text="4 week" />
 </LinearLayout>

@@ -31,8 +31,6 @@ class Chapter22Activity : AppCompatActivity() {
     }
 
     fun test2() {
-        //아래 처럼 인자를 표기해 줄 수 있음
-        //대입된 값이 어떤 값인지 이해하기 어려울때 많이 사용
         drawCircle2(x = 1, y = 1, radius = 10)
         drawCircle2(x = 1, y = 1)
     }
@@ -50,6 +48,11 @@ class Chapter22Activity : AppCompatActivity() {
         val name = "name"
         name.attachPrefix("prefix")
         name.attachPrefixForPackage("prefix")
+        attachPrefix(name, "prefix")
+    }
+
+    companion object {
+        fun attachPrefix(text : String, prefix : String) = "$prefix$this"
     }
 }
 //class 밖에 선언시, package 수준으로 선언이 가능.

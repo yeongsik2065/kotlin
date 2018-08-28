@@ -45,7 +45,7 @@ class Chapter23Activity : AppCompatActivity() {
         }
 
         operator fun inc(): MyNumber {
-            this.number += 1
+                this.number += 1
             return this
         }
 
